@@ -10,19 +10,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        actions: const [
-          Row(
-            children: [
-              Image(
-                image: AssetImage("assets/nbook.png"),
-              )
-            ],
-          ),
-        ],
-      ),
+    return const Scaffold(
+      body: Text("Hi"),
     );
   }
 }

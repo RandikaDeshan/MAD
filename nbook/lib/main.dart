@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Screens/home.dart';
-import 'Screens/login.dart';
+import 'Tab/tabs.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'NBook',
-      home: Home(),
+      home: Tabs(),
     );
   }
 }
