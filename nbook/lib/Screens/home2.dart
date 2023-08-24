@@ -12,7 +12,7 @@ class _Home2State extends State<Home2> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const NavBar(), //navigation bar
-      //navigation bar
+      appBar: AppBar(),
       body: ListView(children: const [
         Padding(padding: EdgeInsets.only(top: 20)),
         Post(),
