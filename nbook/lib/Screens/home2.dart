@@ -11,7 +11,7 @@ class _Home2State extends State<Home2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const NavBar(), 
+      drawer: const NavBar(),
       appBar: AppBar(
         backgroundColor: Colors.green,
         title: const Text("NBook"),
