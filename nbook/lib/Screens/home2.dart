@@ -11,8 +11,11 @@ class _Home2State extends State<Home2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const NavBar(), //navigation bar
-      appBar: AppBar(),
+      drawer: const NavBar(), 
+      appBar: AppBar(
+        backgroundColor: Colors.green,
+        title: const Text("NBook"),
+      ),
       body: ListView(children: const [
         Padding(padding: EdgeInsets.only(top: 20)),
         Post(),
