@@ -15,6 +15,7 @@ class _Home2State extends State<Home2> {
       appBar: AppBar(
         backgroundColor: Colors.green,
         title: const Text("NBook"),
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.home))],
       ),
       body: ListView(children: const [
         Padding(padding: EdgeInsets.only(top: 20)),
