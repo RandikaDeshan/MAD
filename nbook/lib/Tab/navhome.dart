@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:nbook/Screens/homepage.dart';
-
+import 'package:nbook/Screens/login.dart';
+import 'package:nbook/Screens/search.dart';
+import '../Screens/home2.dart';
 import '../Screens/notification.dart';
 
 class NavBar extends StatelessWidget {
@@ -13,12 +14,12 @@ class NavBar extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-            accountName: Text("TRD Peiris"),
-            accountEmail: Text("trdpeiris@students.nsbm.ac.lk"),
+            accountName: const Text("TRD Peiris"),
+            accountEmail: const Text("trdpeiris@students.nsbm.ac.lk"),
             currentAccountPicture: CircleAvatar(
                 child: ClipOval(
                     child: Image.asset(
-              "assets/ieee.jpg",
+              "assets/randi.jpg",
               width: 90,
               height: 90,
               fit: BoxFit.cover,
@@ -31,7 +32,7 @@ class NavBar extends StatelessWidget {
             leading: const Icon(Icons.home),
             title: const Text("Home"),
             onTap: () => Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) => const HomePage())),
+                MaterialPageRoute(builder: (context) => const Home2())),
           ),
           ListTile(
             leading: const Icon(Icons.notifications),
@@ -41,20 +42,16 @@ class NavBar extends StatelessWidget {
                     builder: (context) => const NotificationPage())),
           ),
           ListTile(
-            leading: const Icon(Icons.settings),
-            title: const Text("Settings"),
-            hoverColor: Colors.green,
-            onTap: () => HomePage(),
-          ),
-          ListTile(
             leading: const Icon(Icons.search),
             title: const Text("Search"),
-            onTap: () => null,
+            onTap: () => Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => const SearchPage())),
           ),
           ListTile(
             leading: const Icon(Icons.logout),
             title: const Text("Logout"),
-            onTap: () => null,
+            onTap: () => Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => const LoginPage())),
           ),
         ],
       ),
