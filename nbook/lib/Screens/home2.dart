@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nbook/Tab/navhome.dart';
+import '../Screens/post.dart';
 
 class Home2 extends StatefulWidget {
   const Home2({super.key});
