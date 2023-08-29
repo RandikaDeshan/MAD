@@ -15,6 +15,22 @@ class _PostState extends State<Post> {
           top: BorderSide(color: Colors.black),
           bottom: BorderSide(color: Colors.black)),
       color: Colors.white,
-    ));
+    ),
+padding: const EdgeInsets.all(20),
+      child: Column(
+        children: [
+          Row(
+            children: [
+              ClipOval(
+                child: Image.asset(
+                  "assets/User.jpg",
+                  fit: BoxFit.cover,
+                  width: 50,
+                  height: 50,
+                ),
+              )])
   }
-}
+
+
+
+
