@@ -39,6 +39,15 @@ padding: const EdgeInsets.all(20),
                       style: TextStyle(
                           fontWeight: FontWeight.bold, color: Colors.black),
                     ), 
+                    Text(
+                      "1day",
+                      style: TextStyle(fontSize: 10, color: Colors.black),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
               )])
   }
 
