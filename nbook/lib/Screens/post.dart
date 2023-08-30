@@ -28,6 +28,17 @@ padding: const EdgeInsets.all(20),
                   width: 50,
                   height: 50,
                 ),
+                ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "TRD Peiris",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.black),
+                    ), 
               )])
   }
 
