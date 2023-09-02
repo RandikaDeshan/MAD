@@ -62,5 +62,14 @@ const Row(
                 onPressed: null,
                 icon: Icon(Icons.favorite_border, color: Colors.black),
               ),
-
+SizedBox(
+                width: 5,
+              ),
+              Text(
+                "25",
+                style: TextStyle(color: Colors.black),
+              ),
+              SizedBox(
+                width: 10,
+              ),
 
