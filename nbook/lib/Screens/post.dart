@@ -56,6 +56,11 @@ padding: const EdgeInsets.all(20),
           Image.asset(
             "Hagum.jpeg",
           ),
-
+const Row(
+            children: [
+              IconButton(
+                onPressed: null,
+                icon: Icon(Icons.favorite_border, color: Colors.black),
+              ),
 
 
