@@ -42,15 +42,20 @@ padding: const EdgeInsets.all(20),
                     Text(
                       "1day",
                       style: TextStyle(fontSize: 10, color: Colors.black),
-                    ),
+                     ),
                   ],
                 ),
               ),
             ],
           ),
-              )])
-  }
-
+          const Text(
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+            textAlign: TextAlign.justify,
+            style: TextStyle(color: Colors.black),
+          ),
+          Image.asset(
+            "Hagum.jpeg",
+          ),
 
 
 
