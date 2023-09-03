@@ -72,4 +72,9 @@ SizedBox(
               SizedBox(
                 width: 10,
               ),
-
+IconButton(
+                  onPressed: null,
+                  icon: Icon(Icons.comment_outlined, color: Colors.black)),
+              SizedBox(
+                width: 5,
+              ),
