@@ -78,3 +78,7 @@ IconButton(
               SizedBox(
                 width: 5,
               ),
+              Text(
+                "5",
+                style: TextStyle(color: Colors.black),
+              )
