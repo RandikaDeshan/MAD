@@ -8,15 +8,15 @@ class _PostState extends State<Post> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        decoration: const BoxDecoration(
-      border: Border(
-          left: BorderSide.none,
-          right: BorderSide.none,
-          top: BorderSide(color: Colors.black),
-          bottom: BorderSide(color: Colors.black)),
-      color: Colors.white,
-    ),
-padding: const EdgeInsets.all(20),
+      decoration: const BoxDecoration(
+        border: Border(
+            left: BorderSide.none,
+            right: BorderSide.none,
+            top: BorderSide(color: Colors.black),
+            bottom: BorderSide(color: Colors.black)),
+        color: Colors.white,
+      ),
+      padding: const EdgeInsets.all(20),
       child: Column(
         children: [
           Row(
@@ -28,7 +28,7 @@ padding: const EdgeInsets.all(20),
                   width: 50,
                   height: 50,
                 ),
-                ),
+              ),
               const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Column(
@@ -38,11 +38,11 @@ padding: const EdgeInsets.all(20),
                       "TRD Peiris",
                       style: TextStyle(
                           fontWeight: FontWeight.bold, color: Colors.black),
-                    ), 
+                    ),
                     Text(
                       "1day",
                       style: TextStyle(fontSize: 10, color: Colors.black),
-                     ),
+                    ),
                   ],
                 ),
               ),
@@ -56,13 +56,13 @@ padding: const EdgeInsets.all(20),
           Image.asset(
             "Hagum.jpeg",
           ),
-const Row(
+          const Row(
             children: [
               IconButton(
                 onPressed: null,
                 icon: Icon(Icons.favorite_border, color: Colors.black),
               ),
-SizedBox(
+              SizedBox(
                 width: 5,
               ),
               Text(
@@ -72,7 +72,7 @@ SizedBox(
               SizedBox(
                 width: 10,
               ),
-IconButton(
+              IconButton(
                   onPressed: null,
                   icon: Icon(Icons.comment_outlined, color: Colors.black)),
               SizedBox(
@@ -82,3 +82,10 @@ IconButton(
                 "5",
                 style: TextStyle(color: Colors.black),
               )
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
