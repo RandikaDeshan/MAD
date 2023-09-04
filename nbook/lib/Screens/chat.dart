@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nbook/Tab/navhome.dart';
+
 class Chat extends StatefulWidget {
   const Chat({super.key});
 
@@ -27,9 +28,16 @@ class _ChatState extends State<Chat> {
                  Icons.search,
                  color: Colors.black,
                 ),
-      ),
+                fillColor: Colors.white,
+                border: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    color: Colors.green,
+                  ),
+                  borderRadius: BorderRadius.all(Radius.circular(37)),
+                ),
+         ),
         ),
-    );
+      );
 
-      }
+    }
   }
