@@ -17,6 +17,18 @@ class _ChatState extends State<Chat> {
         title: const Text("NBook"),
         actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.chat))],
       ),
+      body:listview(
+        decoration: InputDecoration(
+                contentPadding: EdgeInsets.symmetric(vertical: 20.0),
+                filled: true,
+                hintText: "Search",
+                hintStyle: TextStyle(color: Colors.black),
+                prefixIcon: Icon(
+                 Icons.search,
+                 color: Colors.black,
+                ),
+      ),
+        ),
     );
 
       }
