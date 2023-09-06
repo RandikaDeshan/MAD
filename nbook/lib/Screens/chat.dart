@@ -19,6 +19,15 @@ class _ChatState extends State<Chat> {
         actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.chat))],
       ),
       body:listview(
+        scrollDirection: Axis.vertical,
+         children:const [
+          Padding(
+            padding: EdgeInsets.all(30),
+            child: TextField(
+              keyboardType: TextInputType.text,
+              style: TextStyle(
+                color: Colors.black,
+              ),
         decoration: InputDecoration(
                 contentPadding: EdgeInsets.symmetric(vertical: 20.0),
                 filled: true,
@@ -34,10 +43,14 @@ class _ChatState extends State<Chat> {
                     color: Colors.green,
                   ),
                   borderRadius: BorderRadius.all(Radius.circular(37)),
-                ),
-         ),
-        ),
-      );
-
-    }
+                   ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
+}
+               
+            
