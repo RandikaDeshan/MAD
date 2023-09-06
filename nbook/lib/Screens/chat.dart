@@ -18,7 +18,7 @@ class _ChatState extends State<Chat> {
         title: const Text("NBook"),
         actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.chat))],
       ),
-      body:listview(
+      body:ListView(
         scrollDirection: Axis.vertical,
          children:const [
           Padding(
