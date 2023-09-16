@@ -21,6 +21,9 @@ class _ChatpostState extends State<Chatpost> {
               fit: BoxFit.fill,
             ),
           ),
+          title: Text("Dancing Club"),
+          trailing: Icon(Icons.chat),
+          onTap: null,
         ),
       ],
     );
