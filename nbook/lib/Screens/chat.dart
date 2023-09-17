@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nbook/Screens/chatpost.dart';
 import 'package:nbook/Tab/navhome.dart';
 
 class Chat extends StatefulWidget {
@@ -43,10 +44,19 @@ class _ChatState extends State<Chat> {
                     color: Colors.green,
                   ),
                   borderRadius: BorderRadius.all(Radius.circular(37)),
-                   ),
+                ),
               ),
             ),
           ),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
+         Chatpost(),
         ],
       ),
     );
