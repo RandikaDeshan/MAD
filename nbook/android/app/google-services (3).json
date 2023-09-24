@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "423333175335",
+    "project_id": "nbook-2cf20",
+    "storage_bucket": "nbook-2cf20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423333175335:android:bf2c090177683bd276ae02",
+        "android_client_info": {
+          "package_name": "com.example.nbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423333175335-97os4h0297qjos3r0ii27lh2b7usf0k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB86R6X6OZOFHYBroiqMJkrwi2p-XyjDdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423333175335-97os4h0297qjos3r0ii27lh2b7usf0k4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "423333175335-oqd04ocssrbbd1l11hdtms4mkci97bae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nbook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
